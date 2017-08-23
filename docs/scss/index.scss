@@ -288,7 +288,7 @@ code {}
     border-radius: 50%;
     background: #dfdfdf;
     border: none;
-    @media (max-width:500px) {
+    @media (min-width:500px) {
         display: none;
     }
 }
@@ -303,7 +303,7 @@ code {}
     width: 200px;
     height: 100vh;
     box-sizing: border-box;
-    background: #eeeeee;
+    background: transparent;
     transition: left 1s;
     a {
         border-left: 3px solid rgba(0,0,0,0);

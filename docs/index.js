@@ -18,7 +18,7 @@ $(document).ready(function() {
     $(document).scroll(function() {
         var distance = $(document).scrollTop();
         for(var i=0; i<links.length; i++) {
-            if(links[i].data('scroll-top') > distance) {
+            if(links[i].data('scroll-top') + 75 > distance) {
                 focus(links[i]);
                 break;
             }

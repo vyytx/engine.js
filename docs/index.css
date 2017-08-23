@@ -234,7 +234,7 @@ section:last-child {
   border-radius: 50%;
   background: #dfdfdf;
   border: none; }
-  @media (max-width: 500px) {
+  @media (min-width: 500px) {
     #open_side {
       display: none; } }
 
@@ -245,7 +245,7 @@ section:last-child {
   width: 200px;
   height: 100vh;
   box-sizing: border-box;
-  background: #eeeeee;
+  background: transparent;
   transition: left 1s; }
   @media (min-width: 500px) {
     .treemenu {
